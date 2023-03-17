@@ -1,4 +1,53 @@
-
+const obj = {
+  naveen:{
+            name:"Segu.Naveen",
+            company:"Incedo",
+            techstack:{
+                         tech1:"java",
+                         tech2:"react.js",
+                         tech3:"node.js"
+                      },
+            education:{
+                           tenth:{
+                                   school:"RavindraBharathiSchool",
+                                   percentage:"95%"
+                                 },
+                           inter:{
+                                     college:"NarayanaJuniorCollege",
+                                     percentage:
+                                     "98.4%"
+                                  },
+                           btech:{
+                                     college:"SASTRA Deemend to be University",
+                                     cgpa:"8.34"
+                                 }
+                      }
+         },
+         sushith:{
+            name:"Sushith.Kalpam",
+            company:"Incedo",
+            techstack:{
+                         tech1:"java",
+                         tech2:"react.js",
+                         tech3:"node.js"
+                      },
+            education:{
+                           tenth:{
+                                   school:"RavindraBharathiSchool",
+                                   percentage:"95%"
+                                 },
+                           inter:{
+                                     college:"NarayanaJuniorCollege",
+                                     percentage:
+                                     "98.4%"
+                                  },
+                           btech:{
+                                     college:"SASTRA Deemend to be University",
+                                     cgpa:"8.34"
+                                 }
+                      }
+         }
+}
 
 
 function configToEnv(obj,str="")
