@@ -14,8 +14,7 @@ const obj = {
                                  },
                            inter:{
                                      college:"NarayanaJuniorCollege",
-                                     percentage:
-                                     "98.4%"
+                                     percentage:98.4
                                   },
                            btech:{
                                      college:"SASTRA Deemend to be University",
@@ -70,6 +69,10 @@ function configToEnv(obj,str="")
                str = str+"_"+objkeys[i];
            }
            configToEnv(obj[objkeys[i]],str);
+       }
+       else if(typeof obj[objkeys[i]] === "number")
+       {
+          str= str+"_"+objkeys[i];
        }
        if(typeof obj[objkeys[i]] !== "object")
        {
